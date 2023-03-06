@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+<!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js" integrity="sha512-v3ygConQmvH0QehvQa6gSvTE2VdBZ6wkLOlmK7Mcy2mZ0ZF9saNbbk19QeaoTHdWIEiTlWmrwAL4hS8ElnGFbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+        <title>Brandon Cunningham</title>
+        <link rel="icon" type="image/x-icon" href="images/ico.png">
+    </head>
+
+    <body id="body">
+
+    <div class="header-content">
+            <h1 id="name"></h1>
+            <h2 id="title"></h2>
+
+            <div class="tooltip">
+                <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                <p id="email"></p>
+            </div>
+
+            <a id="resume-link" href="files/BrandonResume.pdf" target="_blank">
+                <button id="resume-button" class="resume-button">Resume (PDF) <i class="fa fa-download"></i></button>
+            </a>
+
+        </div>
+
+        <div class="experience-section">
+            <div class="flip-card experience">
+                <div id="paychex-flip-card" class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/paychexImage.jpg">
+                        <h1><i>PAYCHEX</i></h1>
+                        <p>Software Developer II</p>
+                        <p>3/2021 - Present</p>
+                        <p class="job-desc">Work as part of the external API agile team, which is responsible for maintaining the Paychex API and partnerships driven through API with other companies. I work on a wide range of technologies that encompasses the entire development stack.</p>
+                        <p class="hover">--- Hover for more ---</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1><i>PAYCHEX</i></h1>
+                        <h2>Tech</h2>
+
+                        <div class="tech-list">
+                            <p class="tech-item">Java</p>
+                            <p class="tech-item">Spring Boot</p>
+                            <p class="tech-item">Angular</p>
+                            <p class="tech-item">Oracle SQL</p>
+                            <p class="tech-item">Splunk</p>
+                            <p class="tech-item">Docker</p>
+                            <p class="tech-item">MongoDB</p>
+                            <p class="tech-item">Jenkins</p>
+                            <p class="tech-item">Kafka</p>
+                            <p class="tech-item">Git</p>
+                            <p class="tech-item">Postman</p>
+                            <p class="tech-item">Figma</p>
+                            <p class="tech-item">Docker</p>
+                            <p class="tech-item">Python</p>
+                        </div>
+
+                        <a class="tech-item-link" href="https://developer.paychex.com/documentation" target="_blank">developer.paychex.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card experience">
+                <div id="bpprocessing-flip-card" class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/bpprocessing.png">
+                        <h1><i>BP PROCESSING</i></h1>
+                        <p>Owner/Software Developer</p>
+                        <p>2018 - 2023</p>
+                        <p class="job-desc">Built a SaaS application as a solo developer, that I used to manage my $1mil a year eBay dropshipping business. Was able to employ a full time service rep that used my software to manage customer service.</p>
+                        <p class="hover">--- Hover for more ---</p>
+                    </div>
+                    <div class="flip-card-back">
+                        <h1><i>BP PROCESSING</i></h1>
+                        <h2>Tech</h2>
+                        <div class="tech-list">
+                            <p class="tech-item">Java</p>
+                            <p class="tech-item">Spring Boot</p>
+                            <p class="tech-item">Angular</p>
+                            <p class="tech-item">MongoDB</p>
+                            <p class="tech-item">Docker</p>
+                            <p class="tech-item">Digital Ocean</p>
+                            <p class="tech-item">Git</p>
+                            <p class="tech-item">Postman</p>
+                            <p class="tech-item">Docker</p>
+                            <p class="tech-item">eBay API</p>
+                            <p class="tech-item">Paypal API</p>
+                            <p class="tech-item">Selenium</p>
+                        </div>
+
+                        <a class="tech-item-link" href="https://bpprocessing.com/#/" target="_blank">bpprocessing.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="skills-section">
+            <h1>Daily Tech</h1>
+
+            <div class="skills">
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/java.png">
+                    <p>Java</p>
+                </div>
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/html.png">
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/css.png">
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/javascript.png">
+                    <p>Javascript</p>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/python.png">
+                    <p>Python</p>
+                </div>
+
+
+                <div class="skill">
+                    <img class="skill-image" style="width:100px; height:100px;" src="images/tech/spring.png">
+                    <p>Spring boot</p>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/angular.png">
+                    <p>Angular</p>
+                </div>
+
+
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/mysql.png">
+                    <p>MySql</p>
+                </div>
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/mongodb.png">
+                    <p>MongoDB</p>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/git.png">
+                    <p>Git</p>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="images/tech/splunk.png">
+                    <p>Splunk</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="stats-section">
+            <h1>Stats for this website</h1>
+            <a id="source-code" href="https://github.com/" target="_blank">View source code here</a>
+            <div class="stats-live">
+                <div class="stats-live-card">
+                    <h1>Live Users</h1>
+                    <h2 id="liveUsers"></h2>
+                </div>
+
+                <div class="stats-live-card">
+                    <h1>Unique Page Loads</h1>
+                    <h2 id="totalPageLoads"></h2>
+                </div>
+            </div>
+
+            <div class="stats-live">
+                <div class="stats-live-card">
+                    <h1>Resume Downloads</h1>
+                    <h2 id="totalResumeDownloads"></h2>
+                </div>
+
+            </div>
+
+            <div class="stats-chart">
+                <canvas id="myChart" style="width:100%;"></canvas>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </body>
+</html>
+
+
